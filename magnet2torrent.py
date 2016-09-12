@@ -61,7 +61,7 @@ def magnet2torrent_cache(magnet, output_name=None):
         output = os.path.abspath(hash_str + '.torrent')
     
     url_xunlei = 'http://bt.box.n0808.com/%s/%s/%s.torrent' % (hash_sha1[:2], hash_sha1[-2:], hash_sha1)
-    url_torrent = 'http://www.torrent.org.cn/Home/Torrent/download.html?hash=%s' % hash_sha1
+    url_torrent = 'http://www.torrent.org.cn/Home/torrent/download.html?hash=%s' % hash_sha1
     url_torcache = 'http://torcache.net/torrent/%s.torrent' % hash_sha1
     url_torrage = 'http://torrage.com/torrent/%s.torrent' % hash_sha1
     url_zoink = 'http://zoink.it/torrent/%s.torrent' % hash_sha1

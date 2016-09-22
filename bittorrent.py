@@ -56,8 +56,8 @@ class Main(QWidget):
 
         magnetLabel = QLabel(self.tr("磁力转种子"))
         self.magnetLineEdit = QLineEdit()
-        self.magnetLineEdit.setMaximumWidth(350);
-        self.magnetLineEdit.setFixedWidth(350);
+        self.magnetLineEdit.setMaximumWidth(350)
+        self.magnetLineEdit.setFixedWidth(350)
         self.magnetPushButton = QPushButton(self.tr("转换"))
 
         magnetLayout = QHBoxLayout()
@@ -68,8 +68,8 @@ class Main(QWidget):
 
         torrentLabel = QLabel(self.tr("种子转磁力"))
         self.torrentLineEdit = QLineEdit()
-        self.torrentLineEdit.setMaximumWidth(350);
-        self.torrentLineEdit.setFixedWidth(350);
+        self.torrentLineEdit.setMaximumWidth(350)
+        self.torrentLineEdit.setFixedWidth(350)
         self.torrentPushButton = QPushButton(self.tr("选择"))
 
         torrentLayout = QHBoxLayout()

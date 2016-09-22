@@ -22,7 +22,7 @@ class WorkThread(QThread):
         self.command = command
 
     def run(self):
-        if self.command[0]== 'magent2torrent':
+        if self.command[0] == 'magent2torrent':
             magnet = str(self.command[1])
             filename = self.command[2]
             torrent = magnet2torrent_cache(magnet, filename)

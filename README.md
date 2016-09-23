@@ -27,6 +27,3 @@ A python script for converting torrent file to magnet link.
 
 ### Example
 `python torrent2magnet.py -i 'abc.torrent'`
-
-## Download
-http://pan.baidu.com/s/1c2r4Dbi
